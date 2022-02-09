@@ -1,0 +1,1367 @@
+@media only screen and (max-width: 320px){
+  h1{
+    text-align: center;
+    margin: 0px;
+    color: #C19A6B;
+    margin-bottom: 0.875em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+#item1{
+    display: inline-block;
+    margin-left: 20px;
+    height:1.25em;
+    width: 36%;
+    border: 0;
+    font-size: 5px;
+    font-weight: bold;
+    color: #483C32;
+    font-family: 'Varela Round', sans-serif;
+    border-bottom-width: 2px;
+    border-bottom-style: solid ;
+    border-bottom-color: rgba(159, 129, 112) ;
+    outline: 0;
+}
+
+#item2{
+    width: 1.1875em;
+    height:1.1875em;
+    margin-left: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: bolder;
+    font-size: 8px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color: #C19A6B;
+    border-width: 0px;
+    border-color: rgba(159, 129, 112);
+    color: white;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+
+#item2:hover{
+  background-color:white ;
+  color: #C19A6B;
+}
+
+
+.list-container{
+    width: 35%;
+    height: 16.25em;
+    background-color:white;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.6875em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.userMessage{
+  width: 90%;
+  position: relative;
+  top: 3.75em;
+  left: 0.1875em;
+  color: #483C32;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.oopsbox{
+  display: block;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.nothingbox{
+  display: block;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.dobox{
+  display: block;
+  text-align: right;
+  width: 44%;
+  margin: auto;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.herebox{
+  display: block;
+  text-align: right;
+  width: 93%;
+  margin: auto;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.loginfo{
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 50px;
+  font-size: 6px;
+}
+
+#tright{
+    width: 8.45%;
+    height: 4.25em;
+    position: absolute;
+    background-color: black;
+    top: 6.875em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+  }
+
+  #tleft{
+    width: 8.45%;
+    height: 4.25em;
+    position: absolute;
+    background-color: black;
+    top: 6.875em;
+    left: 58.9%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+
+  }
+
+  #bright{
+    width: 8.45%;
+    height: 4.25em;
+    position: absolute;
+    background-color: black;
+    top:  19.125em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+
+  #bleft{
+    width: 8.45%;
+    height: 4.25em;
+    position: absolute;
+    background-color: black;
+    top:  19.125em;
+    left: 58.9%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+
+@media only screen and (min-width:320px){
+  h1{
+    text-align: center;
+    margin: 0px;
+    color: #C19A6B;
+    margin-bottom: 0.625em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+#item1{
+    display: inline-block;
+    margin-left: 20px;
+    height: 1.3125em;
+    width: 36%;
+    border: 0;
+    font-size: 7px;
+    font-weight: bold;
+    color: #483C32;
+    font-family: 'Varela Round', sans-serif;
+    border-bottom-width: 2px;
+    border-bottom-style: solid ;
+    border-bottom-color: rgba(159, 129, 112) ;
+    outline: 0;
+}
+
+#item2{
+    width: 1.4375em;
+    height: 1.4375em;
+    margin-left: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: bolder;
+    font-size: 9px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color: #C19A6B;
+    border-width: 0px;
+    border-color: rgba(159, 129, 112);
+    color: white;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+
+#item2:hover{
+  background-color:white ;
+  color: #C19A6B;
+}
+
+
+.list-container{
+    width: 35%;
+    height: 18.125em;
+    background-color:white;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.75em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.userMessage{
+  width: 90%;
+  position: relative;
+  top: 3.75em;
+  left:  0.25em;
+  color: #483C32;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.oopsbox{
+  display: block;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.nothingbox{
+  display: block;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.dobox{
+  display: block;
+  text-align: right;
+  width: 44%;
+  margin: auto;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.herebox{
+  display: block;
+  text-align: right;
+  width: 93%;
+  margin: auto;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.loginfo{
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 50px;
+  font-size: 8px;
+}
+
+#tright{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top: 6.6375em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+  }
+
+  #tleft{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top: 6.6375em;
+    left: 59.1%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+
+  }
+
+  #bright{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top: 20.4125em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+
+  #bleft{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top: 20.4125em;
+    left: 59.1%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+
+@media only screen and (min-width: 375px){
+  h1{
+    text-align: center;
+    margin: 0px;
+    color: #C19A6B;
+    margin-bottom: 0.625em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+#item1{
+    display: inline-block;
+    margin-left:20px;
+    height:1.3125em;
+    width: 36%;
+    border: 0;
+    font-size: 8px;
+    font-weight: bold;
+    color: #483C32;
+    font-family: 'Varela Round', sans-serif;
+    border-bottom-width: 2px;
+    border-bottom-style: solid ;
+    border-bottom-color: rgba(159, 129, 112) ;
+    outline: 0;
+}
+
+#item2{
+    width: 1.1875em;
+    height: 1.1875em;
+    margin-left: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: bolder;
+    font-size: 11px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+     background-color: #C19A6B;
+     border-width: 0px;
+     border-color: rgba(159, 129, 112);
+     color: white;
+     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+
+#item2:hover{
+  background-color:white ;
+  color: #C19A6B;
+}
+
+
+.list-container{
+    width: 35%;
+    height: 18.75em;
+    background-color:white;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.75em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.userMessage{
+  width: 90%;
+  position: relative;
+  top: 3.75em;
+  left:  0.375em;
+  color: #483C32;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.oopsbox{
+  display: block;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.nothingbox{
+  display: block;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.dobox{
+  display: block;
+  text-align: right;
+  width: 44%;
+  margin: auto;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.herebox{
+  display: block;
+  text-align: right;
+  width: 93%;
+  margin: auto;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.loginfo{
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 35px;
+  font-size: 9px;
+}
+
+#tright{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top:6.6875em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+  }
+
+  #tleft{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top: 6.6875em;
+    left: 59.1%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+
+  }
+
+  #bright{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top:21.0625em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+
+  #bleft{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top:  21.0625em;
+    left: 59.1%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+}
+
+@media only screen and (min-width: 425px){
+  h1{
+    text-align: center;
+    margin: 0px;
+    color: #C19A6B;
+    margin-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+#item1{
+    display: inline-block;
+    margin-left: 28px;
+    height: 1.6875em;
+    width: 36%;
+    border: 0;
+    font-size: 9px;
+    font-weight: bold;
+    color: #483C32;
+    font-family: 'Varela Round', sans-serif;
+    border-bottom-width: 2px;
+    border-bottom-style: solid ;
+    border-bottom-color: rgba(159, 129, 112) ;
+    outline: 0;
+}
+
+#item2{
+    width: 1.25em;
+    height:  1.25em;
+    margin-left: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+     background-color: #C19A6B;
+     border-width: 0px;
+     border-color: rgba(159, 129, 112);
+     color: white;
+     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+
+#item2:hover{
+  background-color:white ;
+  color: #C19A6B;
+}
+
+
+.list-container{
+    width: 35%;
+    height: 21.25em;
+    background-color:white;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.25em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.userMessage{
+  width: 90%;
+  position: relative;
+  top: 3.75em;
+  left: 0.5em;
+  color: #483C32;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.oopsbox{
+  display: block;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.nothingbox{
+  display: block;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.dobox{
+  display: block;
+  text-align: right;
+  width: 44%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.herebox{
+  display: block;
+  text-align: right;
+  width: 93%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.loginfo{
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 35px;
+  font-size: 9px;
+}
+
+#tright{
+  width: 8.45%;
+  height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top:6.5em;
+    left: 32.6%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+  }
+
+  #tleft{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top: 6.5em;
+    left: 59%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+
+  }
+
+  #bright{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top:  23.4375em;
+    left: 32.6%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+
+  #bleft{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top: 23.4375em;
+    left: 59%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+}
+
+@media only screen and (min-width: 600px){
+  h1{
+    text-align: center;
+    margin: 0px;
+    color: #C19A6B;
+    margin-bottom: 1.25em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+#item1{
+    display: inline-block;
+    margin-left: 34px;
+    height: 1.4375em;
+    width: 36%;
+    border: 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #483C32;
+    font-family: 'Varela Round', sans-serif;
+    border-bottom-width: 2px;
+    border-bottom-style: solid ;
+    border-bottom-color: rgba(159, 129, 112) ;
+    outline: 0;
+}
+
+#item2{
+    width: 1.3125em;
+    margin-left: 15px;
+    font-weight: bolder;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+     background-color: #C19A6B;
+     border-width: 0px;
+     border-color: rgba(159, 129, 112);
+     color: white;
+     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+
+#item2:hover{
+  background-color:white ;
+  color: #C19A6B;
+}
+
+
+.list-container{
+    width: 35%;
+    height:22.5em;
+    background-color:white;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.25em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.userMessage{
+  width: 90%;
+  position: relative;
+  top: 3.75em;
+  left: 0.625em;
+  color: #483C32;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.oopsbox{
+  display: block;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.nothingbox{
+  display: block;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.dobox{
+  display: block;
+  text-align: right;
+  width: 44%;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.herebox{
+  display: block;
+  text-align: right;
+  width: 93%;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.loginfo{
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 30px;
+  font-size: 9px;
+}
+
+#tright{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top:7.9375em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+  }
+
+  #tleft{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top: 7.9375em;
+    left: 59%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+
+  }
+
+  #bright{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top:  26.125em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+
+  #bleft{
+    width: 8.45%;
+    height: 4.625em;
+    position: absolute;
+    background-color: black;
+    top:26.125em;
+    left: 59%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+
+  h1{
+    text-align: center;
+    margin: 0px;
+    color: #C19A6B;
+    margin-bottom:  1.25em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+#item1{
+    display: inline-block;
+    margin-left: 48px;
+    height: 1.4375em;
+    width: 36%;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #483C32;
+    font-family: 'Varela Round', sans-serif;
+    border-bottom-width: 2px;
+    border-bottom-style: solid ;
+    border-bottom-color: rgba(159, 129, 112) ;
+    outline: 0;
+}
+
+#item2{
+    width: 1.375em;
+    margin-left:0.625em;
+    font-weight: bolder;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 22px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+     background-color: #C19A6B;
+     border-width: 0px;
+     border-color: rgba(159, 129, 112);
+     color: white;
+     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+
+#item2:hover{
+  background-color:white ;
+  color: #C19A6B;
+}
+
+
+.list-container{
+    width: 35%;
+    height: 24.375em;
+    background-color:white;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.3125em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.userMessage{
+  width: 90%;
+  position: relative;
+  top:3.75em;
+  left: 0.625em;
+  color: #483C32;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.oopsbox{
+  display: block;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  font-size: 37px;
+  font-weight: bolder;
+}
+.nothingbox{
+  display: block;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  font-size: 37px;
+  font-weight: bolder;
+}
+.dobox{
+  display: block;
+  text-align: right;
+  width: 44%;
+  margin: auto;
+  font-size: 37px;
+  font-weight: bolder;
+}
+.herebox{
+  display: block;
+  text-align: right;
+  width: 93%;
+  margin: auto;
+  font-size: 37px;
+  font-weight: bolder;
+}
+.loginfo{
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 50px;
+  font-size: 11px;
+}
+
+#tright{
+    width: 8.45%;
+    height: 5.5em;
+    position: absolute;
+    background-color: black;
+    top: 8.375em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+  }
+
+  #tleft{
+    width: 8.45%;
+    height: 5.5em;
+    position: absolute;
+    background-color: black;
+    top: 8.375em;
+    left: 59.1%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+
+  }
+
+  #bright{
+    width: 8.45%;
+    height: 5.5em;
+    position: absolute;
+    background-color: black;
+    top: 27.65em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+
+  #bleft{
+    width: 8.45%;
+    height: 5.5em;
+    position: absolute;
+    background-color: black;
+    top:  27.65em;
+    left: 59.1%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 992px){
+
+  h1{
+    text-align: center;
+    margin: 0px;
+    color: #C19A6B;
+    margin-bottom: 1.25em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+#item1{
+    display: inline-block;
+    margin-left:48px;
+    height: 1.75em;
+    width: 36%;
+    border: 0;
+    font-size: 1.3125em;
+    font-weight: bold;
+    color: #483C32;
+    font-family: 'Varela Round', sans-serif;
+    border-bottom-width: 2px;
+    border-bottom-style: solid ;
+    border-bottom-color: rgba(159, 129, 112) ;
+    outline: 0;
+}
+
+#item2{
+    width: 1.5625em;
+    margin-left: 0.625em;
+    font-weight: bolder;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 22px;
+    margin-top: 0.5em;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+     background-color: #C19A6B;
+     border-width: 0px;
+     border-color: rgba(159, 129, 112);
+     color: white;
+     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+
+#item2:hover{
+  background-color:white ;
+  color: #C19A6B;
+}
+
+
+.list-container{
+    width: 35%;
+    height: 26.875em;
+    background-color:white;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.3125em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.userMessage{
+  width: 90%;
+  position: relative;
+  top: 3.75em;
+  left: 1.125em;
+  color: #483C32;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.oopsbox{
+  display: block;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.nothingbox{
+  display: block;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.dobox{
+  display: block;
+  text-align: right;
+  width: 40%;
+  margin: auto;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.herebox{
+  display: block;
+  text-align: right;
+  width: 90%;
+  margin: auto;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.loginfo{
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+#tright{
+    width: 8.45%;
+    height: 6.7995em;
+    position: absolute;
+    background-color: black;
+    top: 9.0625em;
+    left: 32.4%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+  }
+
+  #tleft{
+    width: 8.45%;
+    height: 6.7995em;
+    position: absolute;
+    background-color: black;
+    top: 9.0625em;
+    left: 59.15%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+
+  }
+
+  #bright{
+    width: 8.45%;
+    height: 6.7995em;
+    position: absolute;
+    background-color: black;
+    top:29.6875em;
+    left: 32.4%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+
+  #bleft{
+    width: 8.45%;
+    height: 6.7995em;
+    position: absolute;
+    background-color: black;
+    top: 29.6875em;
+    left: 59.15%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 1200px){
+
+  h1{
+    text-align: center;
+    color: #C19A6B;
+    margin-bottom: 1.25em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+#item1{
+    display: inline-block;
+    margin-left: 48px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    height:1.875em;
+    width: 36%;
+    border: 0;
+    font-size: 1.4375em;
+    font-weight: bold;
+    color: #483C32;
+    font-family: 'Varela Round', sans-serif;
+    border-bottom-width: 2px;
+    border-bottom-style: solid ;
+    border-bottom-color: rgba(159, 129, 112) ;
+    outline: 0;
+}
+
+#item2{
+    width:1.5em;
+    margin-left: 0.625em;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: bolder;
+    font-size: 28px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+     background-color: #C19A6B;
+     border-width: 0px;
+     border-color: rgba(159, 129, 112);
+     color: white;
+     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+
+#item2:hover{
+  background-color:white ;
+  color: #C19A6B;
+}
+
+
+.list-container{
+    width: 35%;
+    height: 26.875em;
+    background-color:white;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.3125em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.userMessage{
+  width: 90%;
+  position: relative;
+  top: 3.75em;
+  left: 1.125em;
+  color: #483C32;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.oopsbox{
+  display: block;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  font-size: 55px;
+  font-weight: bolder;
+}
+.nothingbox{
+  display: block;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  font-size: 55px;
+  font-weight: bolder;
+}
+.dobox{
+  display: block;
+  text-align: right;
+  width: 40%;
+  margin: auto;
+  font-size: 55px;
+  font-weight: bolder;
+}
+.herebox{
+  display: block;
+  text-align: right;
+  width: 90%;
+  margin: auto;
+  font-size: 55px;
+  font-weight: bolder;
+}
+.loginfo{
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 2.5em;
+}
+
+#tright{
+    width: 8.45%;
+    height: 6.7995em;
+    position: absolute;
+    background-color: black;
+    top: 9.64em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+  }
+
+  #tleft{
+    width: 8.45%;
+    height:6.7995em;
+    position: absolute;
+    background-color: black;
+    top: 9.64em;
+    left: 59.07%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+    
+
+  }
+
+  #bright{
+    width: 8.45%;
+    height:6.7995em;
+    position: absolute;
+    background-color: black;
+    top: 30.0375em;
+    left: 32.5%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+
+  #bleft{
+    width: 8.45%;
+    height:6.7995em;
+    position: absolute;
+    background-color: black;
+    top:30.0375em;
+    left: 59.07%;
+    z-index: -1;
+    background-color: rgba(159, 129, 112);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+}
+
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5C5248
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
